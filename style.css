@@ -1,0 +1,306 @@
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 0.1px;
+  padding: 3px;
+  border: none;
+  cursor: pointer;
+}
+
+li:hover {
+  background-color: #eee;
+}
+
+body{
+  font-family: calibri;
+}
+
+
+.split-vertical {
+            height: 100vh; 
+            width: 80%;
+            position: fixed; 
+        }
+        
+        .left {
+            left: 0;
+            background-color: white; 
+        }
+        
+        .right {
+            right: 0;
+            width: 80%; / split */
+        }
+      
+        .split-horizontal {
+            height: 100%; 
+            width: 100%; 
+            background-color: lightgrey;
+        }
+        
+        .top {
+            background-color: white; 
+            height: 10%;
+        }
+        
+        .bottom {
+            background-color: #bbb; 
+            height: 90%;
+        }
+        body{
+            font-family: calibri;
+        }
+
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+    
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 12px;
+    padding: 3px;
+    justify-content: center;
+}
+
+.card {
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 3px;
+    text-align: center;
+}
+
+
+.progress-bar-container {
+  width: 180px; 
+  height: 10px; 
+  background-color: blue;
+  border-radius: 10px; 
+  align-items: center;
+
+}
+
+.progress-bar {
+
+  height: 100%;
+  background-color: yellow;
+  border-radius: 4px; 
+}
+
+.label {
+  display: block;
+  padding: 5px;
+  font-size: 12px;
+  color: black;
+}
+
+
+  
+
+
+ /* Basic styles for the navbar */
+    .navbar {
+      display: flex;
+      align-items: center; /* Align items vertically */
+      background-color: white;
+      overflow: hidden;
+    }
+
+    /* Style for navbar links */
+    .navbar a {
+      
+      text-decoration: none;
+      padding: 14px 20px;
+    }
+
+    /* Change color on hover */
+    .navbar a:hover {
+      background-color: gray;
+      color: white;
+    }
+
+    /* Add active class to the current link (highlight it) */
+    .navbar a.active {
+      background-color:white;
+      color: black;
+    }
+
+    /* Style for the search container */
+    .search-container {
+      display: flex;
+      align-items: center; /* Align items vertically */
+      margin-right: 20px; /* Adjust spacing between navbar and search bar */
+    }
+
+    /* Style for the search input */
+    .search-input {
+      width: 200px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 20px;
+      outline: none;
+    }
+
+    /* Style for the search button */
+    .search-btn, .mic-btn {
+      padding: 10px;
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+    }
+
+    /* Styling for icons */
+    .fa {
+      color: #888;
+    }
+
+    /* Hover effect for buttons */
+    .search-btn:hover, .mic-btn:hover {
+      background-color: #f2f2f2;
+    }
+
+
+
+.navbar {
+        display: flex;
+        align-items: center; /* Align items vertically */
+        background-color: white;
+        overflow: hidden;
+        width: Hug (386px);
+        height: Hug (25px);
+        gap: 24px;
+
+    }
+
+    h2{
+                
+        font-family: Inter !important; 
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 48px;
+        letter-spacing: 0px;
+        text-align: left;
+
+    }
+    /* Style for navbar links */
+    .navbar a {
+      
+      text-decoration: none;
+      color: #7A8699;
+
+      padding: 5px 12px;
+    }
+
+  
+    /* Add active class to the current link (highlight it) */
+    .navbar a.active {
+      background-color:white;
+      color: black;
+    }
+
+    /* Style for the search container */
+    .Task-Boards {
+      display: flex;
+      align-items: center; /* Align items vertically */
+      margin-right: 20px; /* Adjust spacing between navbar and search bar */
+    }
+
+   
+
+    /* Style for the search button */
+    .pencil-btn, .mic-btn {
+      padding: 10px;
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+    }
+
+    /* Styling for icons */
+    .fa {
+      color: #B8BFCC;
+      width: 18px;
+      height: 18px;
+      top: 3px;
+      left: 3px;
+
+;
+    }
+
+    /* Hover effect for buttons */
+    .pencil-btn:hover, .mic-btn:hover {
+      background-color: #f2f2f2;
+    }
+    .active{
+        text-decoration: underline !important;
+        color: #007AFF !important;
+
+    }
+
+
+  .container {
+            display: flex;
+            align-items: center;
+        }
+
+        .board-view-button, .lock-button, .search-container {
+            margin-right: 5px;
+        }
+
+        .board-view-button, .lock-button {
+            width: 160px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #f2f2f2;
+            border: none;
+            border-radius: 4px;
+            color: #333;
+            padding: 8px 16px;
+            cursor: pointer;
+        }
+
+        .search-input {
+            width: 160px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 20px;
+            outline: none;
+        }
+
+        .search-btn, .mic-btn {
+            padding: 10px;
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+        }
+
+        .fa {
+            color: #888;
+        }
+
+        .lock-icon {
+            margin-right: 10px;
+            font-family: calibri;
+            font-size: 16px;
+            color: black;
+        }
+
+        svg {
+            width: 24px;
+            height: 24px;
+            fill: #C7CED9;
+        }
